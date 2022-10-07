@@ -1,0 +1,75 @@
+:root {
+    --linkColor: #bcbcbc;
+    --linkHover: #8f8f8f;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+h1, h2 {
+    font-size: 1.3rem;
+    font-weight: normal;
+}
+
+body {
+    font-size: 1.5rem;
+    line-height: 2.5rem;
+    letter-spacing: 0.08rem;
+    font-family: sans-serif;
+    padding: 1.8rem;
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper {
+    max-width: 565px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav ul {
+    font-size: .75rem;
+    display: flex;
+    gap: .6rem;
+}
+
+.nav a {
+    color: var(--linkColor);
+    text-transform: uppercase;
+}
+
+.middle-content {
+    font-family: serif;
+    margin: 2.5rem auto;
+    text-align: center;
+}
+
+.quelle {
+    display: block;
+    font-size: 1rem;
+}
+
+.footer {
+    display: flex;
+    gap: .6rem;
+}
+
+.footer , .footer a {
+    color: #bcbcbc;
+    font-size: .72rem;
+    text-transform: uppercase;
+}
+
+a {
+    transition: 300ms;
+}
+
+a:hover {
+    color: var(--linkHover);
+}
