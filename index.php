@@ -52,7 +52,6 @@ require('assets/incl/verse.php');
         <div class="footer">
             <a href="/impressum">Impressum</a>
             <a href="/datenschutz">Datenschutz</a>
-            <p><?php require('assets/incl/counter.php'); ?></p>
         </div>
     </div>
 </body>
