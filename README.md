@@ -1,1 +1,1 @@
-# random-bible-vers-website
+# Minimalistic Website with random Bible Verses
